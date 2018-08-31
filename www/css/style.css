@@ -1,0 +1,78 @@
+.header-bar{
+	background-color: #00cc00;
+}
+.current-task-container{
+	padding: 15px;
+	position: absolute;
+	top: 75px;
+	width: 100%;
+}
+.search-bar-container{
+	position: absolute;
+	top: 52px;
+	width: 100%;
+	padding: 15px;
+	height: 75px;
+}
+.add-new-task{
+	z-index: 1;
+	padding: 3%;
+	font-size: 13vw;
+	background-color: #00cc00;
+	border: 2px solid #00cc00;
+	color: white;
+}
+.single-task-container{
+	display: flex;
+	min-height: 170px;
+	width: 100%;
+}
+.single-task{
+	background-color: rgb(225, 223, 113);
+	min-height: 170px;
+	text-align: center;
+	width: 47.5%;
+	margin: 1%;
+    display: inline-block;
+}
+.single-task h1{
+	font-size: 4.8vw;
+	margin-top: 15px;
+	margin-bottom: 60px;
+}
+.single-task p{
+	font-size: 3vw;
+}
+
+/* From here is the css code for addtask.html*/
+
+.add-task-main{
+	width: 100%;
+	padding: 15px;
+	position: absolute;
+	top: 75px;
+}
+.new-task-input-container input, textarea{
+	padding: 7px;
+	border: 2px solid #d9d9d9;
+}
+
+.new-task-input-container label{
+	font-weight: bold;
+}
+.add-task-submit-btn {
+	background-color: #2dcb70;
+	width: 30%;
+	margin-top: 10px;
+	color: white;
+}
+.add-task-cancel-btn{
+	display: block;
+	margin-top: 10px;
+	background-color: #cccccc;
+	color: white;
+	width: 30%;
+}
+
+
+

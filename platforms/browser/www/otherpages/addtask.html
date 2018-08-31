@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="dist/css/phonon.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+<addtask>
+	<header class="header-bar">
+        <div class="center">
+            <h1 class="title">To Do List</h1>
+        </div>
+    </header>
+	<div class="add-task-main">
+		<h1 class="page-title">NEW TASK</h1>
+		<div class="new-task-input-container">
+			<label>Title </label><input type="text" id="task-title" name ="task-title" placeholder="Enter your task title here...">
+			<label>Date </label><input type="date" id="task-date" name="task-date" placeholder="Enter your task date here...">
+			<label> Description </label> <textarea style="height: 200px;"id="task-description" name="task-description" rows="10" cols="30" placeholder="Enter your task description here"></textarea>
+			<a href="#!home"><button class="btn add-task-submit-btn">ADD</button></a>
+			<a href="#!home"><button class="btn add-task-cancel-btn">CANCEL</button></a>
+		</div>
+	</div>
+	<script src="js/script.js">		
+	</script>
+</addtask>
+</body>
